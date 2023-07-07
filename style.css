@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.manu-contener{
+    background-color: rgb(112, 206, 6);
+    padding: 5px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.manu{
+    display: flex;
+}
+.logo-photo{
+   width: 120px;
+}
+.manu2{
+    margin: 10px;
+    padding:7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.manu2:hover{
+     color: blue;
+}
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* border: 2px solid rgb(191, 241, 116); */
+    background-image: url(./background.png), linear-gradient(45deg,#3a443b
+    ,#547e54
+    );
+}
+.title{
+ font-size: 55px;
+ font-weight: bold;
+}
+.desp{
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(255, 0, 43);
+    color: azure;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+  color: rgb(3, 3, 14);
+  background-color: aqua;
+  transition-duration: .5s;
+}
+.about-cotn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.abount-title{
+    text-align: center;
+    padding-top: 20px;
+}
+.box{
+    width: 240px;
+    height: 320px;
+    box-shadow:4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: rgb(63, 199, 21);
+}
+.icon{
+    width: 100px;
+}
+.btn-box{
+    color: rgb(245, 248, 245);
+    margin-bottom: 10px;
+}
+.box-title{
+    padding: 10px;
+
+}
+.box-des{
+padding: 5px;
+}
+.services{
+    display:flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-image: url(./background.png), linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
+}
+footer{
+    width: 100%;
+    height: 70vh;
+    background-image: url(./background.png),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-repeat:no-repeat;
+    background-blend-mode: overlay;
+    color: azure;
+    line-height: 1.8em;
+}
+.footer-container{
+    display: flex;
+    width: 75%;
+    height: 60vh;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 20px; */
+    border-bottom: 1px solid gray;
+}
+.logo-box{
+    width: 25%;
+}
+.logo-box img{
+    width:170px;
+}
+.copy{
+    text-align: center;
+    padding: 15px;
+}
+.fa-solid{
+    margin-right: 7px;
+}
+.footer-title{
+    margin-bottom: 30px;
+}
+.icons{
+    /* text-align: center; */
+    margin-top:20px;
+}
+.fa-brands{
+    margin: 10px;
+    font-size:20px;
+}
+
+
